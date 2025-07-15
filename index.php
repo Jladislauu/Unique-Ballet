@@ -276,6 +276,15 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
     </div>
   </section>
 
+          <section id="agenda">
+            <iframe 
+                      src="https://aqua-hippopotamus-874519.hostingersite.com/agenda/index.php" 
+                      width="100%" 
+                      height="800px" 
+                      style="border: none;">
+                </iframe>
+        </section>
+
   <section id="products" class="padding-medium">
     <div class="section-header text-center">
       <h2 class="section-title">
@@ -389,7 +398,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
         <?php endforeach; ?>
       </div>
       <div class="btn-center">
-        <a href="/blog/" class="btn btn-outline-primary btn-pill btn-medium">Read All Blog</a>
+        <a href="/blog/" class="btn btn-outline-primary btn-pill btn-medium">Visite o Blog</a>
       </div>
     </div>
   </section>
@@ -427,7 +436,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
   <section id="instagram">
     <div class="section-header text-center">
       <h2 class="section-title">
-        <span class="text-primary">Check Our</span> Instagram Posts
+        <span class="text-primary">Veja os</span> Posts do Instagram 
       </h2>
     </div>
     <div class="container-fluid">
