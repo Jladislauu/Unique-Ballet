@@ -234,7 +234,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
               <td>18:30 às 19:10</td>
               <td>3 a 5 anos</td>
               <td>R$150,00</td>
-              <td><a href="#" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
+              <td><a href="#agenda" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
             </tr>
             <tr>
               <td><strong>Ballet Infantil</strong></td>
@@ -242,7 +242,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
               <td>18:30 às 19:20</td>
               <td>6 a 7 anos</td>
               <td>R$150,00</td>
-              <td><a href="#" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
+              <td><a href="#agenda" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
             </tr>
             <tr>
               <td><strong>Ballet Preparatório</strong></td>
@@ -250,7 +250,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
               <td>18:30 às 19:20</td>
               <td>8 a 10 anos</td>
               <td>R$150,00</td>
-              <td><a href="#" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
+              <td><a href="#agenda" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
             </tr>
             <tr>
               <td><strong>Jazz Juvenil</strong></td>
@@ -258,7 +258,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
               <td>19:10 às 20:00</td>
               <td>10 a 12 anos</td>
               <td>R$150,00</td>
-              <td><a href="#" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
+              <td><a href="#agenda" class="btn btn-outline-dark rounded-pill">Agendar</a></td>
             </tr>
           </tbody>
           <tfoot>
@@ -271,7 +271,7 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
       </div>
 
       <div class="btn-center">
-        <a href="classes.html" class="btn btn-outline-primary btn-pill btn-medium">Ver Todos os Horários</a>
+        <a href="#agenda" class="btn btn-outline-primary btn-pill btn-medium">Fazer Agendamento</a>
       </div>
     </div>
   </section>
