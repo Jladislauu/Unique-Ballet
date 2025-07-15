@@ -71,16 +71,16 @@
               <a href="#" class="nav-link active">Início</a>
             </li>
             <li class="nav-item text-uppercase">
-              <a href="about.html" class="nav-link">Sobre Nós</a>
+              <a href="#about" class="nav-link">Sobre Nós</a>
             </li>
             <li class="nav-item text-uppercase">
-              <a href="blog.html" class="nav-link">Blog</a>
+              <a href="https://aqua-hippopotamus-874519.hostingersite.com/blog" class="nav-link">Blog</a>
             </li>
             <li class="nav-item text-uppercase">
-              <a href="shop.html" class="nav-link">Loja</a>
+              <a href="#products" class="nav-link">Produtos</a>
             </li>
             <li class="nav-item text-uppercase">
-              <a href="contact.html" class="nav-link">Contato</a>
+              <a href="#contact" class="nav-link">Contatos</a>
             </li>
           </ul>
         </div>
@@ -108,7 +108,7 @@
     </div>
   </section>
 
-  <section id="about-us" class="padding-large">
+  <section id="about" class="padding-large">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
