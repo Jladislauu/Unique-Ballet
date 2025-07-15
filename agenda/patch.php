@@ -8,7 +8,7 @@
  * @author      A.Tselegidis <info@alextselegidis.com>
  * @copyright   Copyright (c) 2013 - 2022, Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://recepcionistai.com
  * @support     Easy!Appointments v1.x.x
  * ---------------------------------------------------------------------------- */
 

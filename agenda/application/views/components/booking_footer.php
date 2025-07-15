@@ -9,8 +9,8 @@
 <div id="frame-footer">
     <small>
         <span class="footer-powered-by small">
-            Powered By
-            <a href="https://easyappointments.org" target="_blank">Easy!Appointments</a>
+            Fornecido por
+            <a href="https://recepcionistai.com" target="_blank">RecepcionistAI</a>
         </span>
 
         <span class="footer-options">

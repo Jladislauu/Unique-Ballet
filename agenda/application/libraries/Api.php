@@ -9,7 +9,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * @author      A.Tselegidis <alextselegidis@gmail.com>
  * @copyright   Copyright (c) Alex Tselegidis
  * @license     https://opensource.org/licenses/GPL-3.0 - GPLv3
- * @link        https://easyappointments.org
+ * @link        https://recepcionistai.com
  * @since       v1.5.0
  * ---------------------------------------------------------------------------- */
 

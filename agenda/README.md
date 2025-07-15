@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <a href="https://easyappointments.org">
+    <a href="https://recepcionistai.com">
         <img src="https://raw.githubusercontent.com/alextselegidis/easyappointments/develop/logo.png" alt="Easy!Appointments" width="150">
     </a>
     <br>
@@ -89,7 +89,7 @@ You will need to perform the following steps to install the application on your 
 
 That's it! You can now use Easy!Appointments at your will.
 
-You will find the latest release at [easyappointments.org](https://easyappointments.org).
+You will find the latest release at [easyappointments.org](https://recepcionistai.com).
 If you have problems installing or configuring the application visit the
 [official support group](https://groups.google.com/forum/#!forum/easy-appointments).
 You can also report problems on the [issues page](https://github.com/alextselegidis/easyappointments/issues)

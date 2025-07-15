@@ -9,7 +9,7 @@
 ?>
 <html lang="en">
 <head>
-    <title><?= $subject ?> | Easy!Appointments</title>
+    <title><?= $subject ?> | Unique Ballet</title>
 </head>
 <body style="font: 13px arial, helvetica, tahoma;">
 
@@ -31,9 +31,9 @@
 
     <div id="footer" style="padding: 10px; text-align: center; margin-top: 10px;
                 border-top: 1px solid #EEE; background: #FAFAFA;">
-        Powered by
-        <a href="https://easyappointments.org" style="text-decoration: none;">
-            Easy!Appointments
+        Fornecido por
+        <a href="https://recepcionistai.com" style="text-decoration: none;">
+            RecepcionistAI
         </a>
         |
         <a href="<?= $settings['company_link'] ?>" style="text-decoration: none;">
