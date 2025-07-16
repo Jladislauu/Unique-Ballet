@@ -21,7 +21,7 @@
       </a>
       <?php include(THEME_DIR_PHP.'navigation.php'); ?>
     </div>
-  </header>
+  </header> 
   <main id="main">
     <div class="page-title">
       <nav class="breadcrumbs"> 
