@@ -90,6 +90,8 @@ foreach ($_FILES['images']['name'] as $uuid => $filename) {
 	}
 }
 
+error_log(print_r($_FILES, true));
+
 ajaxResponse(0, 'Images uploaded.', array(
 	'images' => $images
 ));

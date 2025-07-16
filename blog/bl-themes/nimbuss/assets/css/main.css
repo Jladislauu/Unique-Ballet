@@ -479,7 +479,7 @@ section {
 }
 
 .footer .footer-about .logo {
-  line-height: 0;
+  line-height: 1;
   margin-bottom: 25px;
 }
 
