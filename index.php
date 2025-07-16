@@ -457,7 +457,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
               </li>
               <li class="mb-3">
                 <i class="fab fa-whatsapp text-primary me-2"></i>
-                <a href="https://wa.me/554187260614" target="_blank">+55 41 8726-0614</a>
+                <a href="https://wa.me/554187260614" target="_blank">+55 41 98726-0614</a>
               </li>
               <li class="mb-3">    
                 <i class=" fas fa-instagram text-primary me-2"></i>
@@ -488,6 +488,35 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
       </div>
     </div>
   </section>
+
+  <a href="https://wa.me/5541987260614" target="_blank" id="whatsapp-float" aria-label="Fale conosco no WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+<style>
+  #whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 32px;
+    right: 32px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 2.5rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+  }
+  #whatsapp-float:hover {
+    background: #20ba5a;
+    color: #fff;
+    text-decoration: none;
+  }
+</style>
 
 
   <footer id="footer" class="padding-large">
