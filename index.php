@@ -460,10 +460,6 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
                 <a href="https://wa.me/554187260614" target="_blank">+55 41 8726-0614</a>
               </li>
               <li class="mb-3">
-                <i class=" fas fa-instagram text-primary me-2"></i>
-                <a href="https://www.instagram.com/uniqueballetstudio" target="_blank">@uniqueballetstudio</a>
-              </li>
-              <li class="mb-3">
                 <i class="fab fa-instagram edebelső
 
                 <i class=" fas fa-instagram text-primary me-2"></i>
