@@ -417,12 +417,12 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
               <h2 class="section-title text-center mb-0">
                 <span class="text-primary">Siga no</span> Instagram
               </h2>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/uniqueballetstudio/" class="btn btn-medium btn-primary rounded-pill"
-                target="_blank">
-                <i class="fab fa-instagram"></i> @uniqueballetstudio
-              </a>
+              <div>
+                <a href="https://www.instagram.com/uniqueballetstudio/" class="btn btn-medium btn-primary rounded-pill"
+                  target="_blank">
+                  <i class="fab fa-instagram"></i> @uniqueballetstudio
+                </a>
+              </div>
             </div>
           </div>
         </div>
