@@ -24,7 +24,7 @@
   </header>
   <main id="main">
     <div class="page-title">
-      <nav class="breadcrumbs">
+      <nav class="breadcrumbs"> 
         <div class="container"> 
           <ol>
             <?php
