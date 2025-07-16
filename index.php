@@ -102,7 +102,7 @@ if (isset($response['data'])) {
               Juvenil e transforme a infância com dança em um ambiente acolhedor e seguro.</span>
             <div class="buttons d-flex flex-wrap justify-content-center gap-3 my-4">
               <a href="#agenda" class="btn btn-medium btn-primary rounded-pill">Ver Horários</a>
-              <a href="#" class="btn btn-medium btn-dark rounded-pill">Agende uma Aula Experimental</a>
+              <a href="#agenda" class="btn btn-medium btn-dark rounded-pill">Agende uma Aula Experimental</a>
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
 
   <section class="my-2 py-2 my-lg-5 py-lg-5">
     <div class="container">
-      <h2>Aulas Experimentais para Crianças</h2>
+      <h2>Horários e Turmas</h2>
       <div class="table-responsive">
         <table class="table table-striped table-hover table-borderless align-middle">
           <thead>
