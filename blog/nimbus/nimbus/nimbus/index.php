@@ -25,7 +25,7 @@
   <main id="main">
     <div class="page-title">
       <nav class="breadcrumbs">
-        <div class="container">
+        <div class="container"> 
           <ol>
             <?php
               if ($WHERE_AM_I != 'home') { echo '<li><a href="'.$site->url().'">Home</a></li>'; }
