@@ -1,26 +1,27 @@
 <?php
-  ini_set('display_errors', 1);
-  ini_set('display_startup_errors', 1);
-  error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
-  // Endpoint correto para listar páginas/posts
-  $token = '869981747593eb88ef111d77edeb8021';
-  $url = "https://aqua-hippopotamus-874519.hostingersite.com/blog/api/pages?token=$token";
+// Endpoint correto para listar páginas/posts
+$token = '869981747593eb88ef111d77edeb8021';
+$url = "https://aqua-hippopotamus-874519.hostingersite.com/blog/api/pages?token=$token";
 
-  $json = file_get_contents($url);
-  $response = json_decode($json, true);
+$json = file_get_contents($url);
+$response = json_decode($json, true);
 
-  // Pega os 3 primeiros posts publicados
-  $recentPosts = [];
-  if (isset($response['data'])) {
-    foreach ($response['data'] as $key => $post) {
-      if ($post['type'] === 'published') {
-        $post['key'] = $key;
-        $recentPosts[] = $post;
-        if (count($recentPosts) == 3) break;
-      }
+// Pega os 3 primeiros posts publicados
+$recentPosts = [];
+if (isset($response['data'])) {
+  foreach ($response['data'] as $key => $post) {
+    if ($post['type'] === 'published') {
+      $post['key'] = $key;
+      $recentPosts[] = $post;
+      if (count($recentPosts) == 3)
+        break;
     }
   }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -100,7 +101,7 @@
               crianças de 3 a 12 anos, com turmas reduzidas e atenção personalizada. Descubra nossa nova turma de Jazz
               Juvenil e transforme a infância com dança em um ambiente acolhedor e seguro.</span>
             <div class="buttons d-flex flex-wrap justify-content-center gap-3 my-4">
-              <a href="#" class="btn btn-medium btn-primary rounded-pill">Ver Horários</a>
+              <a href="#agenda" class="btn btn-medium btn-primary rounded-pill">Ver Horários</a>
               <a href="#" class="btn btn-medium btn-dark rounded-pill">Agende uma Aula Experimental</a>
             </div>
           </div>
@@ -130,7 +131,7 @@
               Jazz Juvenil para crianças de 10 a 12 anos. Localizada em Água Verde, Curitiba, a Unique Ballet Studio é o
               lugar onde sua filha pode crescer, se expressar e brilhar através da dança.</p>
             <div class="btn-left" data-aos="fade-up" data-aos-delay="200">
-              <a href="about.html" class="btn btn-outline-primary btn-pill btn-medium">Conheça Nossa História</a>
+              <a href="#agenda" class="btn btn-outline-primary btn-pill btn-medium">Agendar Visita</a>
             </div>
           </div>
         </div>
@@ -155,7 +156,7 @@
                   <h2 class="text-white m-0">Baby Class Ballet (3 a 5 anos)</h2>
                   <p class="m-0">Introdução encantadora ao ballet para crianças de 3 a 5 anos, com aulas de 40 minutos
                     em turmas reduzidas, promovendo diversão, coordenação e confiança.</p>
-                  <a href="#" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
+                  <a href="#agenda" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
                 </figcaption>
               </figure>
             </div>
@@ -168,7 +169,7 @@
                   <h2 class="text-white m-0">Ballet Infantil (6 e 7 anos)</h2>
                   <p class="m-0">Aulas de 50 minutos que desenvolvem técnica, criatividade e expressão em um ambiente
                     acolhedor, perfeitas para crianças de 6 e 7 anos.</p>
-                  <a href="#" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
+                  <a href="#agenda" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
                 </figcaption>
               </figure>
             </div>
@@ -183,7 +184,7 @@
                   <h2 class="text-white m-0">Ballet Preparatório (8 a 10 anos)</h2>
                   <p class="m-0">Aulas de 50 minutos que aprimoram técnica e disciplina, com atenção personalizada para
                     crianças de 8 a 10 anos.</p>
-                  <a href="#" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
+                  <a href="#agenda" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
                 </figcaption>
               </figure>
             </div>
@@ -196,14 +197,14 @@
                   <h2 class="text-white m-0">Jazz Juvenil (10 a 12 anos)</h2>
                   <p class="m-0">Nova turma de Jazz para crianças de 10 a 12 anos! Aulas dinâmicas de 50 minutos que
                     combinam ritmo, energia e expressão.</p>
-                  <a href="#" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
+                  <a href="#agenda" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
                 </figcaption>
               </figure>
             </div>
           </div>
           <divmil style="color: rgb(255, 0, 0); display:-
 
-System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
+System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-pill">Agendar Aula Experimental</a>
             </figcaption>
             </figure>
         </div>
@@ -277,14 +278,11 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
     </div>
   </section>
 
-          <section id="agenda">
-            <iframe 
-                      src="https://aqua-hippopotamus-874519.hostingersite.com/agenda/index.php" 
-                      width="100%" 
-                      height="800px" 
-                      style="border: none;">
-                </iframe>
-        </section>
+  <section id="agenda">
+    <iframe src="https://aqua-hippopotamus-874519.hostingersite.com/agenda/index.php" width="100%" height="800px"
+      style="border: none;">
+    </iframe>
+  </section>
 
   <section id="products" class="padding-medium">
     <div class="section-header text-center">
@@ -334,7 +332,8 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
       </div>
     </div>
     <div class="btn-center">
-      <a href="#" class="btn btn-outline-primary btn-pill btn-medium">View All Products</a>
+      <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5541987260614&fbclid=PAZXh0bgNhZW0CMTEAAafrs5EtWAApVrymVEtzLKZMhzFz7DKsr4zvx8aQhLQxJz549MiHk4bTM_-VrA_aem_8KLKKlNLGfL1Ji1jzFDXEA"
+        class="btn btn-outline-primary btn-pill btn-medium">Fazer Pedido</a>
     </div>
   </section>
 
@@ -367,19 +366,19 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
       <div class="row">
         <?php foreach ($recentPosts as $post): ?>
           <?php
-            // Extrai apenas o nome do arquivo, mesmo que venha um caminho completo
-            $coverImage = !empty($post['coverImage']) ? basename($post['coverImage']) : '';
-            if ($coverImage && !empty($post['uuid'])) {
-              $cover = "/blog/bl-content/uploads/pages/{$post['uuid']}/thumbnails/{$coverImage}";
-            } else {
-              $cover = "images/no-image.png";
-            }
+          // Extrai apenas o nome do arquivo, mesmo que venha um caminho completo
+          $coverImage = !empty($post['coverImage']) ? basename($post['coverImage']) : '';
+          if ($coverImage && !empty($post['uuid'])) {
+            $cover = "/blog/bl-content/uploads/pages/{$post['uuid']}/thumbnails/{$coverImage}";
+          } else {
+            $cover = "images/no-image.png";
+          }
           ?>
           <div class="col-md-4">
             <div class="post-item" data-aos="fade" data-aos-delay="0">
               <figure class="zoom-effect">
                 <img src="<?php echo $cover; ?>" alt="postitem" class="blog-image"
-                     onerror="this.onerror=null;this.src='images/no-image.png';">
+                  onerror="this.onerror=null;this.src='images/no-image.png';">
               </figure>
               <div class="post-content">
                 <div class="meta-tags">
@@ -416,97 +415,21 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
           <div class="form-content">
             <div class="section-header">
               <h2 class="section-title text-center mb-0">
-                <span class="text-primary">Sign Up To</span> Get Connected
+                <span class="text-primary">Siga no</span> Instagram
               </h2>
             </div>
-            <form id="form">
-              <input type="text" name="fullname" placeholder="Your Full Name" data-name="fullname"
-                class="bg-light u-full-width">
-              <input type="text" name="email" placeholder="Type Your Email" required="" data-name="email"
-                class="bg-light u-full-width">
-              <div class="btn-submit align-center">
-                <button class="submit btn btn-pill btn-medium btn-primary btn-full" type="submit">Subscribe</button>
-              </div>
-            </form>
+            <a href="https://www.instagram.com/uniqueballetstudio/" class="btn btn-medium btn-primary rounded-pill"
+              target="_blank">
+              <i class="fab fa-instagram"></i> Ver Instagram
+            </a>
+
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="instagram">
-    <div class="section-header text-center">
-      <h2 class="section-title">
-        <span class="text-primary">Veja os</span> Posts do Instagram 
-      </h2>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="instagram-content d-flex flex-wrap justify-content-center">
-          <div class="col-md-2 col-sm-4">
-            <figure class="zoom-effect magnific">
-              <a href="https://www.google.com">
-                <img src="images/alunas-de-maos-dadas.jpeg" alt="instagram">
-                <div class="icon-overlay">
-                  <i class="icon icon-instagram1"></i>
-                </div>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-4">
-            <figure class="zoom-effect magnific">
-              <a href="images/largeitem2.jpg">
-                <img src="images/espetaculo-fim-de-ano.jpeg" alt="instagram">
-                <div class="icon-overlay">
-                  <i class="icon icon-instagram1"></i>
-                </div>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-4">
-            <figure class="zoom-effect magnific">
-              <a href="images/largeitem3.jpg">
-                <img src="images/porque-nao-entrar-na-sala.jpg" alt="instagram">
-                <div class="icon-overlay">
-                  <i class="icon icon-instagram1"></i>
-                </div>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-4">
-            <figure class="zoom-effect magnific">
-              <a href="images/largeitem4.jpg">
-                <img src="images/avalizacao.jpeg" alt="instagram">
-                <div class="icon-overlay">
-                  <i class="icon icon-instagram1"></i>
-                </div>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-4">
-            <figure class="zoom-effect magnific">
-              <a href="images/largeitem5.jpg">
-                <img src="images/apresentacao final de ano.jpeg" alt="instagram">
-                <div class="icon-overlay">
-                  <i class="icon icon-instagram1"></i>
-                </div>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-4">
-            <figure class="zoom-effect magnific">
-              <a href="images/largeitem6.jpg">
-                <img src="images/tuma-bailarinas.jpeg" alt="instagram">
-                <div class="icon-overlay">
-                  <i class="icon icon-instagram1"></i>
-                </div>
-              </a>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <section id="contact" class="padding-large bg-light-grey">
     <div class="container">
       <div class="row">
@@ -627,4 +550,5 @@ System: inline-block;"> <a href="#" class="btn btn-outline-light rounded-pill">A
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
 </body>
+
 </html>
