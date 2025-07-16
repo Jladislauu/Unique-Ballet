@@ -124,7 +124,7 @@
     <div class="container copyright text-center mt-4">
       <p>&copy; <span>Copyright</span> <?php echo date('Y'); ?> <strong><a href="<?php echo $site->url(); ?>" class="fw-bold"><?php echo $site->title(); ?></a></strong>; <span>All Rights Reserved</span></p>
       <div class="credits">
-        Powered by <a href="https://www.bludit.com" class="fw-bold" target="_blank">Bludit</a> - Theme by <a href="https://bluditlab.com/themes/technology/nimbus" class="fw-bold" target="_blank">BluditLab</a>
+        Fornecido por <a href="https://www.recepcionistai.com" class="fw-bold" target="_blank">RecepcionistAI</a> - Theme by <a href="https://bluditlab.com/themes/technology/nimbus" class="fw-bold" target="_blank">BluditLab</a>
       </div>
     </div>
   </footer>
