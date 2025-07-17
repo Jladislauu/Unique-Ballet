@@ -55,7 +55,7 @@ if (isset($response['data'])) {
     <div class="container-fluid">
       <div class="main-logo">
         <a href="index.php">
-          <img src="images/Unique Ballet Studio.png" alt="logo">
+          <img src="images/Marca/logo-unique.png" alt="logo">
         </a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -91,7 +91,7 @@ if (isset($response['data'])) {
   </nav>
 
   <section id="hero-section" class="text-center jarallax mt-5 py-5">
-    <img src="images/apresentação-hero.jpg" alt="Ballet para crianças em Curitiba" class="jarallax-img">
+    <img src="images/Apresentações/apresentação-hero.jpg" alt="Ballet para crianças em Curitiba" class="jarallax-img">
     <div class="banner-content py-5 my-5">
       <div class="container">
         <div class="row justify-content-center">
@@ -114,7 +114,7 @@ if (isset($response['data'])) {
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <img src="images/quem-e-sabrina.jpg" alt="Aulas de ballet para crianças em Curitiba" class="img-fluid">
+          <img src="images/Sabrina Lemes/Sabrina-Lemes.png" alt="Aulas de ballet para crianças em Curitiba" class="img-fluid">
         </div>
         <div class="col-md-6">
           <div class="block-text">
@@ -151,7 +151,7 @@ if (isset($response['data'])) {
           <div class="col-md-6">
             <div class="class-item" data-aos="fade" data-aos-delay="0">
               <figure>
-                <img src="images/Turma 3 e 5 anos.jpeg" alt="Baby Class Ballet em Curitiba" class="img-fluid">
+                <img src="images/Turmas/Turma 3 e 5 anos.jpeg" alt="Baby Class Ballet em Curitiba" class="img-fluid">
                 <figcaption class="p-5 text-white">
                   <h2 class="text-white m-0">Baby Class Ballet (3 a 5 anos)</h2>
                   <p class="m-0">Introdução encantadora ao ballet para crianças de 3 a 5 anos, com aulas de 40 minutos
@@ -164,7 +164,7 @@ if (isset($response['data'])) {
           <div class="col-md-6">
             <div class="class-item" data-aos="fade" data-aos-delay="100">
               <figure>
-                <img src="images/Turma 6 e 7.jpeg" alt="Ballet Infantil em Curitiba" class="img-fluid">
+                <img src="images/Turmas/Turma 6 e 7.jpeg" alt="Ballet Infantil em Curitiba" class="img-fluid">
                 <figcaption class="p-5 text-white">
                   <h2 class="text-white m-0">Ballet Infantil (6 e 7 anos)</h2>
                   <p class="m-0">Aulas de 50 minutos que desenvolvem técnica, criatividade e expressão em um ambiente
@@ -179,7 +179,7 @@ if (isset($response['data'])) {
           <div class="col-md-4">
             <div class="class-item" data-aos="fade" data-aos-delay="200">
               <figure>
-                <img src="images/Turma 8 e 10 anos.jpeg" alt="Ballet Preparatório em Curitiba" class="img-fluid">
+                <img src="images/Turmas/Turma 8 e 10 anos.jpeg" alt="Ballet Preparatório em Curitiba" class="img-fluid">
                 <figcaption class="p-5 text-white">
                   <h2 class="text-white m-0">Ballet Preparatório (8 a 10 anos)</h2>
                   <p class="m-0">Aulas de 50 minutos que aprimoram técnica e disciplina, com atenção personalizada para
@@ -294,11 +294,9 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
       <div class="swiper product-swiper product-content">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-          </div>
-          <div class="swiper-slide">
             <div class="product-item">
               <div class="image-holder align-center">
-                <img src="images/colan.jpg" alt="shoes">
+                <img src="images/Uniforme/colan.png" alt="shoes">
               </div>
               <div class="products-title text-center">
                 <a href="single-product.html">Colan com Saia</a>
@@ -309,7 +307,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
           <div class="swiper-slide">
             <div class="product-item">
               <div class="image-holder align-center">
-                <img src="images/meiacalça.jpg" alt="sweatshirt">
+                <img src="images/Uniforme/meia-calça.jpg" alt="sweatshirt">
               </div>
               <div class="products-title text-center">
                 <a href="single-product.html">Meia Calça Conversível</a>
@@ -320,7 +318,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
           <div class="swiper-slide">
             <div class="product-item">
               <div class="image-holder align-center">
-                <img src="images/sapatilha.jpg" alt="shirt">
+                <img src="images/Uniforme/sapatilha.jpg" alt="shirt">
               </div>
               <div class="products-title text-center">
                 <a href="single-product.html">Sapatilha Meia Ponta Infantil</a>
@@ -408,7 +406,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
       <div class="row justify-content-center">
         <div class="col-md-4">
           <div class="image-holder">
-            <img src="images/newsletterimg.png" alt="dancer" class="newsletter-image">
+            <img src="images/Sabrina Lemes/Sabrina-Lemes1.png" alt="dancer" class="newsletter-image">
           </div>
         </div>
         <div class="col-md-6">
