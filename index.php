@@ -537,7 +537,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
         </div>
         <div class="col-md-4">
           <div class="footer-logo align-center">
-            <img src="images/Marca/uniqueballetstudiologo.jpg" alt="logo">
+            <img src="images/Marca/logo-unique.png" alt="logo">
           </div>
         </div>
         <div class="col-md-4">
