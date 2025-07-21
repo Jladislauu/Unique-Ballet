@@ -463,7 +463,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
               </li>
               <li class="mb-3">
                 <i class="fas fa-clock text-primary me-2"></i>
-                Aulas experimentais de segunda a quinta, 18:30 às 20:00. <a href="classes.html">Ver horários
+                Aulas experimentais de segunda a quinta, 18:30 às 20:00. <a href="agenda">Ver horários
                   completos</a>.
               </li>
             </ul>
@@ -527,17 +527,17 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
                 <a href="#">Início</a>
               </li>
               <li>
-                <a href="#">Privacy Policy</a>
+                <a href="#">Políticas e privacidades</a>
               </li>
               <li>
-                <a href="#">Terms</a>
+                <a href="#">Terms e Condições</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-md-4">
           <div class="footer-logo align-center">
-            <img src="images/Unique Ballet Studio.png" alt="logo">
+            <img src="images/Marca/uniqueballetstudiologo.jpg" alt="logo">
           </div>
         </div>
         <div class="col-md-4">
