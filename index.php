@@ -353,53 +353,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
     </div>
   </section>
 
-  <!-- BLOG DINÂMICO -->
-  <section id="blog" class="latest-blogs padding-large">
-    <div class="container">
-      <div class="section-header text-center">
-        <h2 class="section-title">
-          <span class="text-primary">Veja Nossos</span> Últimos Posts do Blog
-        </h2>
-      </div>
-      <div class="row">
-        <?php foreach ($recentPosts as $post): ?>
-          <?php
-          // Extrai apenas o nome do arquivo, mesmo que venha um caminho completo
-          $coverImage = !empty($post['coverImage']) ? basename($post['coverImage']) : '';
-          if ($coverImage && !empty($post['uuid'])) {
-            $cover = "/blog/bl-content/uploads/pages/{$post['uuid']}/thumbnails/{$coverImage}";
-          } else {
-            $cover = "images/no-image.png";
-          }
-          ?>
-          <div class="col-md-4">
-            <div class="post-item" data-aos="fade" data-aos-delay="0">
-              <figure class="zoom-effect">
-                <img src="<?php echo $cover; ?>" alt="postitem" class="blog-image"
-                  onerror="this.onerror=null;this.src='images/no-image.png';">
-              </figure>
-              <div class="post-content">
-                <div class="meta-tags">
-                  <span class="meta-date">Posted on <?php echo date('M d, Y', strtotime($post['date'])); ?></span>
-                  <span class="meta-author">By <a href="#"><?php echo $post['username']; ?></a></span>
-                </div>
-                <h3 class="post-title">
-                  <a href="/blog/<?php echo $post['key']; ?>"><?php echo $post['title']; ?></a>
-                </h3>
-                <p>
-                  <?php echo $post['description']; ?>
-                  <a href="/blog/<?php echo $post['key']; ?>" class="link">Read More</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        <?php endforeach; ?>
-      </div>
-      <div class="btn-center">
-        <a href="/blog/" class="btn btn-outline-primary btn-pill btn-medium">Visite o Blog</a>
-      </div>
-    </div>
-  </section>
+  
 
   <section id="newsletter" class="newsletter padding-large no-padding-top">
     <div class="container position-relative">
