@@ -24,7 +24,7 @@ if (isset($response['data'])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
   <title>Unique Ballet Studio Sabrina Lemes - Escola de Ballet Infantil em Curitiba</title>
@@ -76,13 +76,13 @@ if (isset($response['data'])) {
               <a href="#about" class="nav-link">Sobre Nós</a>
             </li>
             <li class="nav-item text-uppercase">
-              <a href="https://aqua-hippopotamus-874519.hostingersite.com/blog" class="nav-link">Blog</a>
-            </li>
-            <li class="nav-item text-uppercase">
               <a href="#products" class="nav-link">Produtos</a>
             </li>
             <li class="nav-item text-uppercase">
               <a href="#contact" class="nav-link">Contatos</a>
+            </li>
+            <li class="nav-item text-uppercase">
+              <a href="https://uniqueballetstudio.com/blog" class="nav-link">Blog</a>
             </li>
           </ul>
         </div>
