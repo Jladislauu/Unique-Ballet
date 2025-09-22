@@ -279,7 +279,7 @@ System: inline-block;"> <a href="#agenda" class="btn btn-outline-light rounded-p
   </section>
 
   <section id="agenda">
-    <iframe src="https://aqua-hippopotamus-874519.hostingersite.com/agenda/index.php" width="100%" height="800px"
+    <iframe src="https://uniqueballetstudio.com/agenda/index.php" width="100%" height="800px"
       style="border: none;">
     </iframe>
   </section>
