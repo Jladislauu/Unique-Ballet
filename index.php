@@ -1,28 +1,4 @@
-<?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
 
-// Endpoint correto para listar páginas/posts
-$token = '869981747593eb88ef111d77edeb8021';
-$url = "https://aqua-hippopotamus-874519.hostingersite.com/blog/api/pages?token=$token";
-
-$json = file_get_contents($url);
-$response = json_decode($json, true);
-
-// Pega os 3 primeiros posts publicados
-$recentPosts = [];
-if (isset($response['data'])) {
-  foreach ($response['data'] as $key => $post) {
-    if ($post['type'] === 'published') {
-      $post['key'] = $key;
-      $recentPosts[] = $post;
-      if (count($recentPosts) == 3)
-        break;
-    }
-  }
-}
-?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 
